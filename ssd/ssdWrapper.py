@@ -28,7 +28,7 @@ MEANS = (104, 117, 123)
 class SSD(object):
     _defaults = {
         # "model_path"        : 'model_data/ssd_weights.pth',
-        "model_path"        : 'logs/Epoch1-Total_Loss15.8563-Val_Loss4.0214.pth',
+        "model_path"        : 'logs/Epoch1-Total_Loss2.6853-Val_Loss2.0469.pth',
         "classes_path"      : 'model_data/voc_classes_new.txt',
         "input_shape"       : (300, 300, 3),
         "confidence"        : 0.5,
